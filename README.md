@@ -38,7 +38,7 @@ Once the database and the python environments are ready, do the following:
   
 
 #### Weekly Average Reports
-To view the weekly average trip reports, follow the following steps:
+To view the weekly average trip reports, follow the steps below:
 1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
 2. Execute the data weekly average script (weekly_avg.py), by typing: python weekly_avg.py
 3. You will be prompted for the report type; type 1 to view the report by region or 2 to view the report by coordinates.
@@ -47,4 +47,16 @@ To view the weekly average trip reports, follow the following steps:
 6. The report will be displayed.
 
 #### Data Ingestion Status
-
+To view the status of previously ingested data, follow the steps below:
+  1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
+  2. Execute the check status script (check_status.py), by typing: python check_status.py
+  3. There are 5 options to choose from:
+      -  1 for last ingested data upload
+      -  2 for the last 5 uploads in which the ID of one will be selected to fetch the status
+      -  3 for the last 10 uploads in which the ID of one will be selected to fetch the status
+      -  4 for all uploads in which the ID of one will be selected to fetch the status
+      -  5 option is selected if you know the ID of the etl you are interested in.
+  4. If 1 option is selected, you will get the details of the last data ingested status
+  5. If 2,3, or 4 option is selected, you will be prompted for the ID of interest to get the data ingested status
+  6. If 5 option is selected, you 
+      
