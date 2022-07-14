@@ -30,6 +30,7 @@ Once the database and the python environments are ready, do the following:
       - username=root
       - password=ppppp
   3. The database name should be "jobsity" or change the database name in Object_Creation.sql script.
+  4. Execute the Object_Creation.sql script in the MySQL database. This will create all the objects and load the date dimension table.
 
 #### Steps to execute data ingestion and data processing
   1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
