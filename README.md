@@ -58,5 +58,5 @@ To view the status of previously ingested data, follow the steps below:
       -  5 option is selected if you know the ID of the etl you are interested in.
   4. If 1 option is selected, you will get the details of the last data ingested status
   5. If 2,3, or 4 option is selected, you will be prompted for the ID of interest to get the data ingested status
-  6. If 5 option is selected, you 
+  6. If 5 option is selected, you will be prompted for the ID of interest to get the data ingested status
       
