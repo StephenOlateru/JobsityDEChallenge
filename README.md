@@ -10,6 +10,14 @@ Below are some of the assumptions for this demostration
 
 
 #### Requirements
+  1. MySQL database
+  2. Python 3.8 or higher version
+  3. Python libraries
+      - pandas
+      - configparser
+      - sqlalchemy
+      - mysql 
+      - dask
 
 
 #### Configuration and Setup
