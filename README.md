@@ -7,6 +7,7 @@ Below are some of the assumptions for this demostration
   2. 	The data is data cleaning and thus there is no need for data cleaning processes (for this demonstration purpose).
   3.	Each URL represents a unique set of data.
   4.	A file is loaded per time i.e. one file is processed at a time.
+  5.	The file type will always be a CSV but could be from different sources. 
 
 
 #### Requirements
@@ -30,7 +31,10 @@ Once the database and the python environments are ready, do the following:
       - password=ppppp
 
 #### Steps to execute data ingestion and data processing
-
+  1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
+  2. Execute the data ingestion and processing script (injection_script_v2.py), by typing: python injection_script_v2.py
+  3. You will be prompted for the URL to the CSV data. Paste the URL and click enter.
+  4. If the settings are 
 
 #### Weekly Average Reports
 
