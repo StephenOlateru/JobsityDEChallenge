@@ -29,7 +29,7 @@ Once the database and the python environments are ready, do the following:
       - database=jobsity
       - username=root
       - password=ppppp
-  3. The database name should be jobsity or change the database name in Object_Creation.sql script.
+  3. The database name should be "jobsity" or change the database name in Object_Creation.sql script.
 
 #### Steps to execute data ingestion and data processing
   1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
