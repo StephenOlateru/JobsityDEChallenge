@@ -34,10 +34,17 @@ Once the database and the python environments are ready, do the following:
   1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
   2. Execute the data ingestion and processing script (injection_script_v2.py), by typing: python injection_script_v2.py
   3. You will be prompted for the URL to the CSV data. Paste the URL and click enter.
-  4. If the settings are 
+  4. If the settings are okay and the file is a valid CSV, the data will be ingested and processed.
+  
 
 #### Weekly Average Reports
-
+To view the weekly average trip reports, follow the following steps:
+1. From the command promt, change the directory to C:\trips (or the demo root where the trips folder was saved)
+2. Execute the data weekly average script (weekly_avg.py), by typing: python weekly_avg.py
+3. You will be prompted for the report type; type 1 to view the report by region or 2 to view the report by coordinates.
+4. If 1 is typed, you will be prompted for the name of the region.
+5. If 2 is typed, you will be prompted for the coordinates one after the other - x1, y1, x2, y2
+6. The report will be displayed.
 
 #### Data Ingestion Status
 
